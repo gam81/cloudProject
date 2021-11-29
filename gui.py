@@ -2,16 +2,16 @@ import tkinter as gui
 import os
 
 def hd():
-    link = 'localhost:9870' if local else '35.223.112.91:9870'
+    link = 'localhost:9870' if local else ''
 
 def sp():
-    link = 'localhost:8080' if local else '34.132.29.196:8080'
+    link = 'localhost:8080' if local else ''
 
 def jp():
-    link = 'localhost:8888' if local else '34.136.84.126:8888'
+    link = 'localhost:8888' if local else ''
 
 def sn():
-    link = 'localhost:9000' if local else '104.197.67.245:9000'
+    link = 'localhost:9000' if local else ''
     
 def main():
     global local 
