@@ -48,5 +48,5 @@ kubectl get service -o wide
 
 Then reserve the IPs that appear here in google cloud. This makes them able to be connected through the program.
 
-Replace the empty IP slots after the local variable check in the gui.py with these IPs in order to connect to them through GCP.
+Replace the empty IP slots after the local variable check in the gui.py with these IPs in order to connect to them through GCP. Run as "gui.py false" to connect non-locally.
 
