@@ -1,4 +1,4 @@
 FROM python:3
 WORKDIR .
 COPY . .
-CMD ["python", "main.py"]
+CMD ["python", "gui.py"]
