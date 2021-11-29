@@ -38,3 +38,13 @@ kubectl apply -f yamls/datanode-deployment.yaml
 kubectl apply -f yamls/jupyter-deployment.yaml
 
 kubectl apply -f yamls/jupyter-service.yaml
+
+
+It may take some time for the IPs to finish assigning.
+
+Go to "External IP Addresses" in google cloud platform. Type the following command in your terminal:
+
+kubectl get service -o wide
+
+Then reserve the IPs that appear here in google cloud. This makes them able to be connected through the program.
+
