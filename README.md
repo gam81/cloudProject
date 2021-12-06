@@ -21,6 +21,8 @@ git clone https://github.com/gam81/cloudProject
 
 cd cloudProject
 
+minikube start
+
 kubectl apply -f yamls/sonar-deployment.yaml
 
 kubectl apply -f yamls/sonar-service.yaml
