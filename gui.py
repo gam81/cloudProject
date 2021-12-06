@@ -20,7 +20,7 @@ def main():
         local = sys.argv[1].lower() == 'true'
         
     view = gui.Tk()
-    view.title('Cloud Project')
+    view.title('CloudProj')
     view.geometry('720x360')
     
     hadoop_button = gui.Button(view, text='Apache Hadoop', command=hd)
