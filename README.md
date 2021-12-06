@@ -19,7 +19,7 @@ this can be accessed in gcp by going to kubernetes engine>creating a cluster>con
 
 git clone https://github.com/gam81/cloudProject
 
-cd cs1660-project
+cd cloudProject
 
 kubectl apply -f yamls/sonar-deployment.yaml
 
