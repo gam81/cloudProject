@@ -17,7 +17,7 @@
 
 this can be accessed in gcp by going to kubernetes engine>creating a cluster>connect>run in cloud shell 
 
-git clone https://github.com/erikpitt/cs1660-project.git
+git clone https://github.com/gam81/cloudProject
 
 cd cs1660-project
 
